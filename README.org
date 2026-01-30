@@ -2,8 +2,174 @@
 #+author: Dr. Isaías Moreno Cruz
 
 
+
+* Intoducción
+
+** Constante solar
+
+#+caption: Constante solar
+#+attr_html: :width 500px
+#+label: fig:label
+[[file:figures/Gon.png]]
+
+
+
+** Radiación solar
+
+#+caption: Componentes de radiación solar en la superficie de la Tierra
+#+attr_html: :width 400px
+#+label: fig:label
+[[file:figures/radiacion.png]]
+
+
+
+
+* Geometría solar
+
+** Tierra
+
+#+caption: Tierra
+#+attr_html: :width 500px
+#+label: fig:label
+[[file:figures/Tierra.png]]
+
+#+caption: Orbita de la Tierra alrededor  del Sol
+#+attr_html: :width 500px
+#+label: fig:label
+[[file:figures/orbita.png]]
+
+
+Revisar la siguiente pagina ([[https://drajmarsh.bitbucket.io/earthsun.html][Earth-Sun]]) de internet para comprender el movimiento de la tierra y el sol
+
+
+** Declinación solar
+
+
+#+caption: Declinación solar, según el movimiento aparente del Sol.
+#+attr_html: :width 500px
+#+label: fig:label
+[[file:figures/declinacionT.png]]
+
+#+caption: Declinación solar.
+#+attr_html: :width 500px
+#+label: fig:label
+[[file:figures/declinacion.png]]
+
+
+\begin{table}[h]
+  \centering
+  \caption{\label{tab:n}Días del mes promedios recomendados}
+  \begin{tabular}[h]{lllll}
+    \toprule
+    Mes        & n-iésimo & Fecha &   n & $\delta$ \\
+    \midrule
+    Enero      & i        &    17 &  17 &  -20.9\\
+    Febrero    & 31+i     &    16 &  47 &  -13.0\\
+    Marzo      & 59+i     &    16 &  75 &   -2.4\\
+    Abril      & 90+i     &    15 & 105 &    9.4\\
+    Mayo       & 120+i    &    15 & 135 &   18.8\\
+    Junio      & 151+i    &    11 & 162 &   23.1\\
+    Julio      & 181+i    &    17 & 198 &   21.2\\
+    Agosto     & 212+i    &    16 & 228 &   13.5\\
+    Septiembre & 243+i    &    15 & 258 &    2.2\\
+    Octubre    & 273+i    &    15 & 288 &   -9.6\\
+    Noviembre  & 304+i    &    14 & 318 &  -18.9\\
+    Diciembre  & 334+i    &    10 & 344 &  -23.0\\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+
+
+
+** Ecuación de tiempo
+
+#+caption: Tiempo Universal Coordinado (UTC).
+#+attr_html: :width 500px
+#+label: fig:label
+[[file:figures/UTC.png]]
+
+
+#+caption: Husos horarios de México.
+#+attr_html: :width 500px
+#+label: fig:label
+[[file:figures/mexico.png]]
+
+
+#+caption: Ecuación del tiempo.
+#+attr_html: :width 500px
+#+label: fig:label
+[[file:figures/Et.png]]
+
+
+
+* Primera clase de programación
+
+Programar la declinación.
+
+#+begin_src C
+  #include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+#define PI         3.1415926535897932384626433832795028841971
+
+double r2d(double radianes);
+double d2r(double grados);
+double delta(int N);
+
+int main(int argc, char *argv[])
+{
+  int N;
+  double d;
+
+  N = 355;
+  d = delta(N);
+
+  printf("%f\n" , d);
+  
+  return 0;
+}
+
+/* Funciones basicas */
+/* ---------------------------------------------------------------------- */
+
+/* radianes a grados */
+double r2d(double radianes){
+  return (180.0/PI)*radianes;
+}
+
+/* grados a radianes */
+double d2r(double grados){
+  return (PI/180.0)*grados;
+}
+
+/* Declinaci'on */
+double delta(int N){
+  double decl;
+/* cooper */
+    decl = 23.45 * sin(2.0*PI*(284 + N)/365.0);
+
+  return decl;
+}
+#+end_src
+
+
+* Geometría solar II
+
+** Ángulos solares
+
+
+
+
+** Ángulo horario
+
+[[https://drajmarsh.bitbucket.io/sunpath3d.html][Sun-Path]]
+
 * Proyectos
 
 ** Proyecto: Localización del eje Norte-Sur
 
 El archivo [[file:proyectos/proyecto01.pdf][proyecto01.pdf]] contiene la información del proyecto.
+
+
