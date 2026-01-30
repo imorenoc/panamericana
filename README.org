@@ -1,0 +1,9 @@
+#+title: Energía Solar Térmica
+#+author: Dr. Isaías Moreno Cruz
+
+
+* Proyectos
+
+** Proyecto: Localización del eje Norte-Sur
+
+El archivo [[file:proyectos/proyecto01.pdf][proyecto01.pdf]] contiene la información del proyecto.
