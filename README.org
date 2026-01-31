@@ -56,32 +56,23 @@ Revisar la siguiente pagina ([[https://drajmarsh.bitbucket.io/earthsun.html][Ear
 [[file:figures/declinacion.png]]
 
 
-#+begin_src latex
-
-\begin{table}[h]
-  \centering
-  \caption{\label{tab:n}Días del mes promedios recomendados}
-  \begin{tabular}[h]{lllll}
-    \toprule
-    Mes        & n-iésimo & Fecha &   n & $\delta$ \\
-    \midrule
-    Enero      & i        &    17 &  17 &  -20.9\\
-    Febrero    & 31+i     &    16 &  47 &  -13.0\\
-    Marzo      & 59+i     &    16 &  75 &   -2.4\\
-    Abril      & 90+i     &    15 & 105 &    9.4\\
-    Mayo       & 120+i    &    15 & 135 &   18.8\\
-    Junio      & 151+i    &    11 & 162 &   23.1\\
-    Julio      & 181+i    &    17 & 198 &   21.2\\
-    Agosto     & 212+i    &    16 & 228 &   13.5\\
-    Septiembre & 243+i    &    15 & 258 &    2.2\\
-    Octubre    & 273+i    &    15 & 288 &   -9.6\\
-    Noviembre  & 304+i    &    14 & 318 &  -18.9\\
-    Diciembre  & 334+i    &    10 & 344 &  -23.0\\
-    \bottomrule
-  \end{tabular}
-\end{table}
-  
-#+end_src
+#+caption: Días del mes promedios recomendados
+|------------+----------+-------+-----+----------|
+| Mes        | n-iésimo | Fecha |   n | $\delta$ |
+|------------+----------+-------+-----+----------|
+| Enero      | i        |    17 |  17 |    -20.9 |
+| Febrero    | 31+i     |    16 |  47 |    -13.0 |
+| Marzo      | 59+i     |    16 |  75 |     -2.4 |
+| Abril      | 90+i     |    15 | 105 |      9.4 |
+| Mayo       | 120+i    |    15 | 135 |     18.8 |
+| Junio      | 151+i    |    11 | 162 |     23.1 |
+| Julio      | 181+i    |    17 | 198 |     21.2 |
+| Agosto     | 212+i    |    16 | 228 |     13.5 |
+| Septiembre | 243+i    |    15 | 258 |      2.2 |
+| Octubre    | 273+i    |    15 | 288 |     -9.6 |
+| Noviembre  | 304+i    |    14 | 318 |    -18.9 |
+| Diciembre  | 334+i    |    10 | 344 |    -23.0 |
+|------------+----------+-------+-----+----------|
 
 
 ** Ecuación de tiempo
