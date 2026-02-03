@@ -159,6 +159,12 @@ double delta(int N){
 
 [[https://drajmarsh.bitbucket.io/sunpath3d.html][Sun-Path]]
 
+
+* Series
+
+- [[file:series/serieParcial01.pdf][serieParcial01.pdf]]
+
+
 * Proyectos
 
 ** Proyecto: Localización del eje Norte-Sur
