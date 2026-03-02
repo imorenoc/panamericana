@@ -160,10 +160,59 @@ double delta(int N){
 [[https://drajmarsh.bitbucket.io/sunpath3d.html][Sun-Path]]
 
 
+* Intensidad de radiación
+
+#+caption: Piranómetro
+#+attr_html: :width 500px
+#+label: fig:label
+[[file:figures/piranometro.png]]
+
+
+#+caption: Piranómetro
+#+attr_html: :width 500px
+#+label: fig:label
+[[file:figures/piranometro2.png]]
+
+#+caption: Piranómetro
+#+attr_html: :width 500px
+#+label: fig:label
+[[file:figures/piranometroBanda.jpg]]
+
+#+caption: Pireliómetro
+#+attr_html: :width 500px
+#+label: fig:label
+[[file:figures/esquemaP.png]]
+
+
+#+caption: Pireliómetro
+#+attr_html: :width 500px
+#+label: fig:label
+[[file:figures/pirheliometro.png]]
+#+caption: Pireliómetro
+#+attr_html: :width 500px
+#+label: fig:label
+[[file:figures/pirheliometro.png]]
+
+#+caption: Pireliómetro
+#+attr_html: :width 500px
+#+label: fig:label
+[[file:figures/pirheliometro2.jpg]]
+
+
+
+
 * Series
 
 - [[file:series/serieParcial01.pdf][serieParcial01.pdf]]
 
+
+* Examen
+
+Fechas de examenes
+
+- 26 de feb
+- 16 de abril
+- 4 de jun
 
 * Proyectos
 
@@ -171,4 +220,7 @@ double delta(int N){
 
 El archivo [[file:proyectos/proyecto01.pdf][proyecto01.pdf]] contiene la información del proyecto.
 
+** Proyecto:
+
+El archivo [[file:proyectos/proyecto01.pdf][proyecto02.pdf]] contiene la información del proyecto.
 

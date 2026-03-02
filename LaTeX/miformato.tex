@@ -1,0 +1,44 @@
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[hidelinks]{hyperref}
+\usepackage[natbibapa]{apacite}
+\usepackage{booktabs}
+
+\usepackage[activeacute]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\spanishdecimal{.}
+
+\usepackage{xcolor}
+\usepackage{listings}
+
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+\graphicspath{{./fig/}}
+
+
+% Configuración para Python
+\lstdefinestyle{mypython}{
+    language=Python,
+    backgroundcolor=\color{gray!10},
+    basicstyle=\ttfamily\small,
+    keywordstyle=\color{blue}\bfseries,
+    commentstyle=\color{green!60!black},
+    stringstyle=\color{red},
+    numbers=left,
+    numberstyle=\tiny\color{gray},
+    stepnumber=1,
+    numbersep=5pt,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    tabsize=4,
+    captionpos=b,
+    breaklines=true,
+    breakatwhitespace=true,
+    frame=single,
+    rulecolor=\color{black!30},
+    morekeywords={self, None, True, False},  % palabras clave adicionales
+    emph={print, len, range, open, import},  % funciones comunes
+    emphstyle=\color{orange}
+}

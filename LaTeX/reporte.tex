@@ -1,0 +1,66 @@
+\documentclass[spanish, letterpaper,12]{article}
+\input{miformato.tex}
+
+%----------------------------------------------------------------------
+\begin{document}
+%----------------------------------------------------------------------
+\renewcommand{\tablename}{Tabla}
+
+\input{portada.tex}
+
+\tableofcontents
+\pagebreak
+
+\section{Introducción}
+
+
+\section{Calculo de la posición solar}
+
+El calculo de la posición solar se calcula~\citep{Duffie2013solar} con las Ec.~\ref{eq:thetaz} y~\ref{eq:gammas}
+
+\begin{equation}
+  \label{eq:thetaz}
+\cos(\theta_z) = \cos(\phi) \cos(\delta) \cos(\omega) + \sin(\phi) \sin(\delta)
+\end{equation}
+
+\begin{equation}
+  \label{eq:gammas}
+  \tan \gamma_s = \dfrac{ \cos \delta \sin \omega }{\sin \phi \cos \delta \cos \omega - \cos \phi \sin \delta}
+\end{equation}
+
+
+\citet{Duffie2013solar} menciona que el ángulo acimutal $\gamma_s$, se referencia desde el eje sur, y es positio después del mediodía solar y negativo hacia el este.
+
+
+\section{Código}
+
+\begin{lstlisting}[style=mypython, caption=Estracto del código main.py, label=lst:maincase0]
+case 0:
+    print("Sistema de seguimiento solar")
+    while(1):
+        t = timenow()
+        ta = t
+
+        s, thz, gs = vsolar(site,grenaDic,ta)
+        dt, sf, thzf, gsf = prediccionS(site,grenaDic,s,tha,ta)
+
+        while(dt > 0):
+            t = timenow()
+            s, thz, gs = vsolar(site,grenaDic,t)        
+            print("%s\t%.4f\t%.4f\t%.4f\t%.4f" %\
+                  (t, r2d(thz), r2d(gs), r2d(thzf), r2d(gsf) ))
+            dt=dt-tup
+            sleep(tup)
+\end{lstlisting}
+
+
+\section{Conclusiones}
+
+
+
+%----------------------------------------------------------------------
+\bibliographystyle{apacite}
+\bibliography{bibliografia}
+%----------------------------------------------------------------------
+\end{document}
+
