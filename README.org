@@ -224,3 +224,6 @@ El archivo [[file:proyectos/proyecto01.pdf][proyecto01.pdf]] contiene la informa
 
 El archivo [[file:proyectos/proyecto01.pdf][proyecto02.pdf]] contiene la información del proyecto.
 
+* LaTeX
+
+El archivo [[file:LaTeX/main.tex][main.tex]] contiene el formato para el reporte.
