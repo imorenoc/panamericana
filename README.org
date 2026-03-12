@@ -198,7 +198,7 @@ double delta(int N){
 #+label: fig:label
 [[file:figures/pirheliometro2.jpg]]
 
-* Programa de calculo de insolación promedio mensial ($\bar{H}$)
+* Programa de cálculo de insolación promedio mensual
 
 El programa en python se encuentra en [[file:insolacion/main.py][main.py]] que require el archivo [[file:insolacion/insolacion.py][insolacion.py]]. El archivo main.py lee el archivo del año meteorológico típico (TMY) que se descargo del [[https://nsrdb.nrel.gov/][NSRDB]].
 
