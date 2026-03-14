@@ -206,8 +206,9 @@ El programa en python se encuentra en [[file:insolacion/main.py][main.py]] que r
 * Series
 
 - [[file:series/serieParcial01.pdf][serieParcial01.pdf]]
+- [[file:series/serieParcial02.pdf][serieParcial02.pdf]]
 
-
+ 
 * Examen
 
 Fechas de examenes
