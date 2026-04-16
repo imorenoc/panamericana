@@ -3,7 +3,7 @@
 
 
 
-* Intoducción
+* I ntoducción
 
 ** Constante solar
 
@@ -218,6 +218,8 @@ Fechas de examenes
 - 26 de feb
 - 16 de abril
 - 4 de jun
+
+Los datos para el segundo parcial se encuentran en la carpeta [[file:data/][data]].
 
 * Proyectos
 
