@@ -227,9 +227,13 @@ Los datos para el segundo parcial se encuentran en la carpeta [[file:data/][data
 
 El archivo [[file:proyectos/proyecto01.pdf][proyecto01.pdf]] contiene la información del proyecto.
 
-** Proyecto:
+** Proyecto: Cálculo de la posición solar
 
 El archivo [[file:proyectos/proyecto02.pdf][proyecto02.pdf]] contiene la información del proyecto.
+
+** Proyecto: Reloj solar
+
+El archivo [[file:proyectos/proyecto02.pdf][proyecto03.pdf]] contiene la información del proyecto.
 
 * LaTeX
 
