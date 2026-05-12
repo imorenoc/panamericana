@@ -233,7 +233,7 @@ El archivo [[file:proyectos/proyecto02.pdf][proyecto02.pdf]] contiene la informa
 
 ** Proyecto: Reloj solar
 
-El archivo [[file:proyectos/proyecto02.pdf][proyecto03.pdf]] contiene la información del proyecto.
+El archivo [[file:proyectos/proyecto03.pdf][proyecto03.pdf]] contiene la información del proyecto.
 
 * LaTeX
 
